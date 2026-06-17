@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/VoodooTeam/voodooadn-swift-package", exact: "3.16.4"),
-    .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
+    .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
     .target(
@@ -18,7 +18,7 @@ let package = Package(
         "VoodooAdapterSDK",
         .product(name: "VoodooAdn", package: "voodooadn-swift-package"),
         .product(name: "OMSDK_Voodooio", package: "voodooadn-swift-package"),
-        .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
+        .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
       ]
     ),
     .binaryTarget(
