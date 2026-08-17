@@ -4,7 +4,7 @@ This Swift Package provides the LevelPlay Voodoo adapter for iOS.
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 14.0+
 - Swift 5.0+
 - Xcode 15.0+
 
