@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "VoodooAdapter", targets: ["VoodooAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/VoodooADN/ios-sdk-swiftpackage", exact: "4.30.0"),
+    .package(url: "https://github.com/VoodooADN/ios-sdk-swiftpackage", exact: "4.30.1"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -23,8 +23,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "VoodooAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/voodoo-adapter/5.6.0/ISVoodooAdapter5.6.0.zip",
-      checksum: "a7f9b50725fdf43846384bb407bc8172ceeaa3ad871ab50a17e37b3553a318e4"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/voodoo-adapter/5.7.0/ISVoodooAdapter5.7.0.zip",
+      checksum: "f059e273b6f1334809a9e8398565cf3e495d784dce616bcfbf0467aef8226afa"
     )
   ]
 )
