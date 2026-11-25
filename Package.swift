@@ -17,7 +17,6 @@ let package = Package(
       dependencies: [
         "VoodooAdapterSDK",
         .product(name: "VoodooAdn", package: "ios-sdk-swiftpackage"),
-        .product(name: "OMSDK_Voodooio", package: "ios-sdk-swiftpackage"),
         .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
       ]
     ),
